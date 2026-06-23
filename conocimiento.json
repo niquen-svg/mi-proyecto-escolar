@@ -1,0 +1,626 @@
+{
+  "Mathias": {
+    "nombre": "Mathias Ñiquen",
+    "avatar": "🏔️",
+    "entorno": "Alta Montaña y Picos Nevados",
+    "imagenPerfil": "img/montana/perfil.jpg",
+    "presentacion": "¡Hola! Soy Mathias Ñiquen. Me encanta explorar las montañas más altas, caminar por senderos rodeados de niebla y observar animales que viven en condiciones extremas. Mi misión es estudiar cómo funcionan los ecosistemas de montaña y ayudar a protegerlos.",
+    "metodo": "Utilizo binoculares, mapas, estaciones meteorológicas y mi libreta de campo para observar el clima, la vegetación, los glaciares y los animales que habitan las montañas.",
+    "concepto": "Las montañas son grandes elevaciones naturales del terreno. En las zonas más altas encontramos ecosistemas únicos como páramos, bosques de montaña y picos nevados. Estos ecosistemas son fundamentales porque almacenan agua, regulan el clima y albergan especies adaptadas a condiciones extremas.",
+    "importancia": [
+      "Son fábricas naturales de agua dulce.",
+      "Alimentan ríos, lagos y embalses.",
+      "Ayudan a regular el clima.",
+      "Almacenan nieve y glaciares.",
+      "Protegen una gran biodiversidad.",
+      "Son hogar de especies únicas.",
+      "Ayudan a prevenir deslizamientos cuando conservan su vegetación.",
+      "Son importantes para el turismo y la investigación científica."
+    ],
+    "tiposMontana": [
+      { "nombre": "Páramos", "descripcion": "Ecosistemas de alta montaña que capturan y almacenan agua." },
+      { "nombre": "Bosques Andinos", "descripcion": "Bosques ubicados en las laderas montañosas." },
+      { "nombre": "Picos Nevados", "descripcion": "Montañas cubiertas por nieve y hielo." },
+      { "nombre": "Cordilleras", "descripcion": "Conjuntos de montañas conectadas entre sí." },
+      { "nombre": "Valles de Montaña", "descripcion": "Áreas más bajas rodeadas por elevaciones." }
+    ],
+    "ecosistema": {
+      "clima": "Frío extremo, con temperaturas bajo cero la mayor parte del año. Heladas frecuentes y vientos fuertes. Temporada de lluvias corta pero intensa.",
+      "flora": ["Frailejones", "Pajonales", "Musgos", "Líquenes", "Orquídeas de montaña", "Encenillos", "Pinos de altura", "Arbustos andinos"],
+      "fauna": ["Cóndor andino", "Oso de anteojos", "Venado de cola blanca", "Puma", "Zorro andino", "Colibríes", "Águilas", "Conejos de montaña", "Ranas de páramo"],
+      "amenazas": ["Cambio climático", "Retroceso de glaciares", "Incendios forestales", "Minería irresponsable", "Contaminación de fuentes hídricas", "Expansión urbana", "Turismo sin control", "Deforestación"],
+      "conservacion": ["Proteger nacimientos de agua.", "Evitar incendios forestales.", "Reducir la contaminación.", "Promover el turismo responsable.", "Proteger áreas naturales.", "Restaurar zonas degradadas.", "Cuidar la vegetación nativa.", "Educar sobre la importancia de los páramos."]
+    },
+    "curiosidades": [
+      "Los frailejones pueden capturar agua de la niebla.",
+      "El cóndor andino posee una de las mayores envergaduras del mundo.",
+      "Las montañas suministran agua a millones de personas.",
+      "Algunas plantas de montaña crecen muy lentamente debido al frío.",
+      "Los glaciares almacenan enormes reservas de agua dulce.",
+      "La temperatura disminuye aproximadamente 6 grados por cada 1000 metros de altura.",
+      "Muchos animales de montaña poseen pelajes especiales para soportar el frío."
+    ],
+    "preguntasSugeridas": [
+      "¿Qué es un páramo?",
+      "¿Por qué las montañas producen agua?",
+      "¿Qué animales viven en las montañas?",
+      "¿Qué son los glaciares?",
+      "¿Por qué desaparecen los glaciares?",
+      "¿Qué hace un frailejón?",
+      "¿Cómo puedo ayudar a proteger las montañas?"
+    ],
+    "indicadores": [
+      {
+        "icono": "❄️",
+        "label": "Estado de Glaciares y Nieve",
+        "estados": {
+          "sano": {
+            "texto": "Presencia estable de nieve y glaciares.",
+            "imagen": "img/montana/sano.jpg",
+            "keywords": ["glaciar", "nieve abundante", "cumbres blancas", "hielo"]
+          },
+          "regular": {
+            "texto": "Reducción visible de nieve o hielo.",
+            "imagen": "img/montana/regular.jpg",
+            "keywords": ["menos nieve", "derretimiento", "retroceso glaciar"]
+          },
+          "critico": {
+            "texto": "Desaparición acelerada de glaciares.",
+            "imagen": "img/montana/critico.jpg",
+            "keywords": ["sin nieve", "glaciar desapareciendo", "hielo perdido"]
+          }
+        }
+      },
+      {
+        "icono": "💧",
+        "label": "Disponibilidad de Agua",
+        "estados": {
+          "sano": {
+            "texto": "Ríos y nacimientos de agua abundantes.",
+            "imagen": "img/montana/sano.jpg",
+            "keywords": ["río limpio", "agua abundante", "quebrada"]
+          },
+          "regular": {
+            "texto": "Disminución de caudales.",
+            "imagen": "img/montana/regular.jpg",
+            "keywords": ["menos agua", "sequía", "caudal bajo"]
+          },
+          "critico": {
+            "texto": "Escasez grave de agua.",
+            "imagen": "img/montana/critico.jpg",
+            "keywords": ["sin agua", "río seco", "escasez"]
+          }
+        }
+      },
+      {
+        "icono": "🦅",
+        "label": "Biodiversidad",
+        "estados": {
+          "sano": {
+            "texto": "Presencia de fauna y flora diversa.",
+            "imagen": "img/montana/sano.jpg",
+            "keywords": ["cóndor", "oso", "frailejón", "muchos animales"]
+          },
+          "regular": {
+            "texto": "Menor presencia de especies.",
+            "imagen": "img/montana/regular.jpg",
+            "keywords": ["menos animales", "menos aves"]
+          },
+          "critico": {
+            "texto": "Pérdida importante de biodiversidad.",
+            "imagen": "img/montana/critico.jpg",
+            "keywords": ["sin fauna", "sin flora", "ecosistema degradado"]
+          }
+        }
+      }
+    ],
+    "respuestas": {
+      "sano": { "diagnostico": "", "solucion": "" },
+      "regular": { "diagnostico": "", "solucion": "" },
+      "critico": { "diagnostico": "", "solucion": "" }
+    },
+    "palabrasClave": ["montaña", "montañas", "páramo", "glaciar", "nieve", "altura", "cóndor", "oso", "frailejón", "nevado", "cordillera", "agua"]
+  },
+
+  "Luis": {
+    "nombre": "Luis Ramirez",
+    "avatar": "🦁",
+    "entorno": "Sabanas Tropicales",
+    "imagenPerfil": "img/sabana/perfil.jpg",
+    "presentacion": "¡Hola! Soy Luis Ramirez. Me encanta explorar las sabanas, observar grandes manadas de animales y descubrir cómo sobreviven durante las estaciones secas y lluviosas. Las sabanas son lugares llenos de vida y equilibrio natural.",
+    "metodo": "Observo los pastizales, los árboles dispersos, las fuentes de agua y el comportamiento de los animales para comprender si la sabana se encuentra saludable o necesita protección.",
+    "concepto": "Las sabanas son ecosistemas terrestres caracterizados por extensas áreas de pastizales con árboles y arbustos dispersos. Generalmente se desarrollan en regiones tropicales y subtropicales donde existen estaciones lluviosas y estaciones secas bien definidas.",
+    "importancia": [
+      "Albergan una enorme biodiversidad.",
+      "Sirven de hogar para grandes mamíferos y depredadores.",
+      "Ayudan a regular el ciclo del carbono.",
+      "Protegen el suelo contra la erosión.",
+      "Sostienen actividades agrícolas y ganaderas.",
+      "Favorecen la infiltración de agua en el suelo.",
+      "Contribuyen al equilibrio ecológico regional.",
+      "Son importantes para el turismo y la educación ambiental."
+    ],
+    "tiposSabanas": [
+      { "nombre": "Sabanas Africanas", "descripcion": "Las más conocidas del mundo, hogar de leones, elefantes, jirafas y cebras." },
+      { "nombre": "Cerrado Brasileño", "descripcion": "Una de las sabanas más biodiversas del planeta, ubicada principalmente en Brasil." },
+      { "nombre": "Sabanas Australianas", "descripcion": "Ubicadas en el norte de Australia, con eucaliptos y especies adaptadas al clima tropical." },
+      { "nombre": "Sabanas Asiáticas", "descripcion": "Presentes en algunas regiones del sur y sudeste asiático." },
+      { "nombre": "Sabanas Inundables", "descripcion": "Reciben inundaciones estacionales que enriquecen el ecosistema." }
+    ],
+    "ecosistema": {
+      "clima": "Tropical con estaciones secas y lluviosas bien diferenciadas. Temperaturas cálidas todo el año. Lluvias concentradas en pocos meses.",
+      "flora": ["Acacias", "Baobabs", "Pastos tropicales", "Hierbas resistentes a la sequía", "Arbustos dispersos", "Palmeras de sabana", "Gramíneas"],
+      "fauna": ["Leones", "Elefantes", "Jirafas", "Cebras", "Rinocerontes", "Ñus", "Hienas", "Guepardos", "Antílopes", "Buitres", "Aves rapaces", "Termitas"],
+      "amenazas": ["Expansión urbana", "Agricultura intensiva", "Deforestación", "Cambio climático", "Caza furtiva", "Sobrepastoreo", "Incendios provocados", "Fragmentación del hábitat"],
+      "conservacion": ["Proteger áreas naturales y parques nacionales.", "Reducir la caza ilegal.", "Promover la ganadería sostenible.", "Conservar corredores biológicos para animales migratorios.", "Evitar la destrucción de árboles nativos.", "Apoyar programas de educación ambiental.", "Reducir los efectos del cambio climático."]
+    },
+    "curiosidades": [
+      "La Gran Migración del Serengeti es uno de los movimientos animales más grandes del planeta.",
+      "Los incendios naturales ayudan a mantener saludables algunas sabanas.",
+      "Los baobabs pueden almacenar miles de litros de agua en sus troncos.",
+      "Muchas especies migran siguiendo las lluvias.",
+      "Algunas termitas construyen montículos gigantes visibles a gran distancia.",
+      "Las jirafas pueden alcanzar hojas que otros animales no pueden comer.",
+      "La sabana africana es uno de los ecosistemas más famosos del mundo."
+    ],
+    "preguntasSugeridas": [
+      "¿Qué es una sabana?",
+      "¿Qué diferencia hay entre una sabana y una pradera?",
+      "¿Por qué migran los ñus?",
+      "¿Qué animales viven en las sabanas?",
+      "¿Qué es el Cerrado brasileño?",
+      "¿Por qué los baobabs almacenan agua?",
+      "¿Cómo puedo ayudar a proteger las sabanas?"
+    ],
+    "indicadores": [
+      {
+        "icono": "🌾",
+        "label": "Estado de la Vegetación",
+        "estados": {
+          "sano": {
+            "texto": "Pastizales abundantes y árboles saludables.",
+            "imagen": "img/sabana/sano.jpg",
+            "keywords": ["pasto verde", "acacias", "vegetación abundante", "árboles saludables"]
+          },
+          "regular": {
+            "texto": "Vegetación afectada por sequía o presión humana.",
+            "imagen": "img/sabana/regular.jpg",
+            "keywords": ["pasto seco", "menos vegetación", "sequía"]
+          },
+          "critico": {
+            "texto": "Pérdida importante de cobertura vegetal.",
+            "imagen": "img/sabana/critico.jpg",
+            "keywords": ["suelo desnudo", "erosión", "vegetación desapareciendo"]
+          }
+        }
+      },
+      {
+        "icono": "🦁",
+        "label": "Biodiversidad",
+        "estados": {
+          "sano": {
+            "texto": "Gran variedad de animales y cadenas alimenticias activas.",
+            "imagen": "img/sabana/sano.jpg",
+            "keywords": ["jirafas", "elefantes", "cebras", "muchos animales"]
+          },
+          "regular": {
+            "texto": "Menor presencia de especies.",
+            "imagen": "img/sabana/regular.jpg",
+            "keywords": ["menos animales", "menos herbívoros"]
+          },
+          "critico": {
+            "texto": "Pérdida significativa de fauna.",
+            "imagen": "img/sabana/critico.jpg",
+            "keywords": ["sin animales", "fauna ausente"]
+          }
+        }
+      },
+      {
+        "icono": "💧",
+        "label": "Disponibilidad de Agua",
+        "estados": {
+          "sano": {
+            "texto": "Fuentes de agua disponibles durante las temporadas adecuadas.",
+            "imagen": "img/sabana/sano.jpg",
+            "keywords": ["charcas", "río", "agua disponible"]
+          },
+          "regular": {
+            "texto": "Reducción temporal de agua por sequías.",
+            "imagen": "img/sabana/regular.jpg",
+            "keywords": ["poca agua", "charcas secándose"]
+          },
+          "critico": {
+            "texto": "Escasez severa de agua.",
+            "imagen": "img/sabana/critico.jpg",
+            "keywords": ["sin agua", "sequía extrema"]
+          }
+        }
+      }
+    ],
+    "respuestas": {
+      "sano": { "diagnostico": "", "solucion": "" },
+      "regular": { "diagnostico": "", "solucion": "" },
+      "critico": { "diagnostico": "", "solucion": "" }
+    },
+    "palabrasClave": ["sabana", "serengeti", "jirafa", "elefante", "león", "cebra", "ñu", "acacia", "baobab", "pastizal", "tropical", "migración"]
+  },
+
+  "Mazzimiliano": {
+    "nombre": "Mazzimiliano Vargas",
+    "avatar": "🌾",
+    "entorno": "Praderas y Pastizales",
+    "imagenPerfil": "img/pradera/perfil.jpg",
+    "presentacion": "¡Hola! Soy Mazzimiliano Vargas. Me encanta explorar las grandes praderas donde el viento mueve los pastos como si fueran olas. En estos ecosistemas viven numerosos animales y plantas adaptadas a extensas llanuras abiertas.",
+    "metodo": "Observo el estado de los pastos, la calidad del suelo, la presencia de polinizadores y la diversidad de especies para determinar si una pradera se encuentra saludable o necesita ayuda.",
+    "concepto": "Las praderas son ecosistemas dominados por pastos, hierbas y flores silvestres. Generalmente poseen pocos árboles y se encuentran en regiones donde las lluvias no son suficientes para formar grandes bosques. Son fundamentales para la biodiversidad, la agricultura y el almacenamiento de carbono en los suelos.",
+    "importancia": [
+      "Almacenan grandes cantidades de carbono en el suelo.",
+      "Sirven de alimento para numerosos animales herbívoros.",
+      "Protegen el suelo contra la erosión.",
+      "Ayudan a infiltrar agua de lluvia.",
+      "Sostienen cadenas alimenticias complejas.",
+      "Son hábitat para aves, insectos y mamíferos.",
+      "Favorecen la producción agrícola y ganadera sostenible."
+    ],
+    "tiposPraderas": [
+      { "nombre": "Praderas Templadas", "descripcion": "Reciben lluvias moderadas durante el año y presentan extensas áreas cubiertas de gramíneas." },
+      { "nombre": "Praderas de Pastos Cortos", "descripcion": "Reciben menos precipitaciones y poseen vegetación de menor altura." },
+      { "nombre": "Praderas de Pastos Altos", "descripcion": "Reciben más agua y pueden alcanzar alturas superiores a dos metros." },
+      { "nombre": "Praderas Mixtas", "descripcion": "Combinan pastos altos y bajos en un mismo ecosistema." },
+      { "nombre": "Praderas Inundadas", "descripcion": "Presentan periodos permanentes o estacionales de inundación." },
+      { "nombre": "Praderas Alpinas", "descripcion": "Se desarrollan en zonas montañosas por encima del límite de crecimiento de los árboles." },
+      { "nombre": "Praderas Marinas", "descripcion": "Ecosistemas submarinos formados por plantas marinas que producen oxígeno y sirven de refugio para muchas especies." }
+    ],
+    "comparaciones": [
+      "Las praderas no son iguales a las sabanas.",
+      "Las sabanas poseen árboles dispersos y climas tropicales.",
+      "Las praderas suelen presentar menos árboles y estaciones más marcadas.",
+      "Las estepas reciben menos lluvias que las praderas."
+    ],
+    "ecosistema": {
+      "clima": "Templado, con estaciones bien marcadas. Inviernos fríos y veranos cálidos. Precipitaciones moderadas, con sequías ocasionales.",
+      "flora": ["Gramíneas", "Pastos altos", "Pastos cortos", "Tréboles", "Alfalfa", "Flores silvestres", "Hierbas nativas", "Juncos", "Plantas acuáticas"],
+      "fauna": ["Bisontes", "Antílopes", "Venados", "Conejos", "Zorros", "Coyotes", "Perros de la pradera", "Aves migratorias", "Mariposas", "Abejas", "Escarabajos", "Saltamontes"],
+      "amenazas": ["Sobrepastoreo", "Monocultivos", "Uso excesivo de pesticidas", "Compactación del suelo", "Cambio climático", "Urbanización", "Especies invasoras", "Incendios provocados", "Pérdida de biodiversidad"],
+      "conservacion": ["Mantener prácticas de pastoreo sostenible.", "Proteger especies nativas.", "Reducir el uso de pesticidas.", "Conservar flores silvestres y polinizadores.", "Evitar la erosión del suelo.", "Restaurar zonas degradadas.", "Promover la educación ambiental."]
+    },
+    "curiosidades": [
+      "Las raíces de algunas gramíneas pueden medir varios metros de profundidad.",
+      "Muchas praderas almacenan más carbono bajo tierra que algunos bosques.",
+      "Los incendios naturales ayudan a mantener saludables algunas praderas.",
+      "Las praderas son uno de los ecosistemas más transformados por la agricultura.",
+      "Los polinizadores dependen de las flores silvestres para sobrevivir.",
+      "Una sola hectárea de pradera puede albergar miles de organismos del suelo."
+    ],
+    "preguntasSugeridas": [
+      "¿Qué es una pradera?",
+      "¿Qué diferencia hay entre una pradera y una sabana?",
+      "¿Por qué son importantes las abejas?",
+      "¿Qué animales viven en las praderas?",
+      "¿Cómo ayuda una pradera al suelo?",
+      "¿Qué es el sobrepastoreo?",
+      "¿Cómo puedo proteger las praderas?"
+    ],
+    "indicadores": [
+      {
+        "icono": "🌾",
+        "label": "Vegetación",
+        "estados": {
+          "sano": {
+            "texto": "Diversidad de pastos, flores y gramíneas nativas.",
+            "imagen": "img/pradera/sano.jpg",
+            "keywords": ["pasto verde", "flores", "gramíneas", "vegetación abundante"]
+          },
+          "regular": {
+            "texto": "Pérdida parcial de diversidad vegetal.",
+            "imagen": "img/pradera/regular.jpg",
+            "keywords": ["malezas", "amarillento", "vegetación débil"]
+          },
+          "critico": {
+            "texto": "Monocultivos o pérdida grave de cobertura vegetal.",
+            "imagen": "img/pradera/critico.jpg",
+            "keywords": ["sin vegetación", "erosión", "pastizal destruido"]
+          }
+        }
+      },
+      {
+        "icono": "🌱",
+        "label": "Estado del Suelo",
+        "estados": {
+          "sano": {
+            "texto": "Suelo oscuro, esponjoso y lleno de vida.",
+            "imagen": "img/pradera/sano.jpg",
+            "keywords": ["lombrices", "suelo fértil", "materia orgánica"]
+          },
+          "regular": {
+            "texto": "Compactación moderada y pérdida de nutrientes.",
+            "imagen": "img/pradera/regular.jpg",
+            "keywords": ["suelo duro", "compactado"]
+          },
+          "critico": {
+            "texto": "Suelo erosionado, seco y degradado.",
+            "imagen": "img/pradera/critico.jpg",
+            "keywords": ["erosión", "tierra seca", "sin nutrientes"]
+          }
+        }
+      },
+      {
+        "icono": "🐝",
+        "label": "Polinizadores y Fauna",
+        "estados": {
+          "sano": {
+            "texto": "Abundancia de insectos, aves y mamíferos.",
+            "imagen": "img/pradera/sano.jpg",
+            "keywords": ["abejas", "mariposas", "aves", "fauna abundante"]
+          },
+          "regular": {
+            "texto": "Menor presencia de polinizadores.",
+            "imagen": "img/pradera/regular.jpg",
+            "keywords": ["menos abejas", "menos aves"]
+          },
+          "critico": {
+            "texto": "Ausencia de fauna y pérdida de biodiversidad.",
+            "imagen": "img/pradera/critico.jpg",
+            "keywords": ["sin animales", "sin polinizadores"]
+          }
+        }
+      }
+    ],
+    "respuestas": {
+      "sano": { "diagnostico": "", "solucion": "" },
+      "regular": { "diagnostico": "", "solucion": "" },
+      "critico": { "diagnostico": "", "solucion": "" }
+    },
+    "palabrasClave": ["pradera", "pastizal", "gramíneas", "pasto", "abejas", "mariposas", "suelo", "polinizadores", "biodiversidad", "flores", "herbívoros"]
+  },
+
+  "Isabela": {
+    "nombre": "Isabela Pernalete",
+    "avatar": "🌊",
+    "entorno": "Océanos y Ecosistemas Marinos",
+    "imagenPerfil": "img/oceano/perfil.jpg",
+    "presentacion": "¡Hola! Soy Isabela Pernalete. Me encanta explorar los océanos y descubrir los secretos que esconden bajo sus olas. Buceo entre arrecifes de coral, observo peces de colores y aprendo cómo funciona el ecosistema más grande de nuestro planeta.",
+    "metodo": "Utilizo gafas de buceo, cámaras submarinas y cuadernos de campo para observar la vida marina. Analizo la calidad del agua, la salud de los corales y la presencia de animales para entender si el océano está saludable.",
+    "concepto": "Los océanos son enormes masas de agua salada que cubren más del 70% de la superficie terrestre. Constituyen el ecosistema más grande del planeta y contienen aproximadamente el 97% del agua de la Tierra.",
+    "importancia": [
+      "Producen gran parte del oxígeno que respiramos.",
+      "Regulan la temperatura global.",
+      "Absorben dióxido de carbono de la atmósfera.",
+      "Albergan cerca del 80% de la vida del planeta.",
+      "Proporcionan alimentos a millones de personas.",
+      "Generan empleos relacionados con la pesca y el turismo.",
+      "Son fuente de medicinas y recursos naturales.",
+      "Ayudan a regular el ciclo del agua."
+    ],
+    "losCincoOceanos": [
+      { "nombre": "Océano Pacífico", "descripcion": "Es el océano más grande y profundo del planeta." },
+      { "nombre": "Océano Atlántico", "descripcion": "Conecta numerosos continentes y posee importantes rutas marítimas." },
+      { "nombre": "Océano Índico", "descripcion": "Se encuentra principalmente entre África, Asia y Australia." },
+      { "nombre": "Océano Ártico", "descripcion": "Es el más pequeño y se encuentra alrededor del Polo Norte." },
+      { "nombre": "Océano Antártico", "descripcion": "Rodea la Antártida y desempeña un papel fundamental en el clima global." }
+    ],
+    "zonasMarinas": [
+      { "nombre": "Zona Costera", "descripcion": "Área cercana a las playas donde vive gran diversidad de organismos." },
+      { "nombre": "Arrecifes de Coral", "descripcion": "Ecosistemas muy biodiversos conocidos como las selvas del mar." },
+      { "nombre": "Praderas Marinas", "descripcion": "Campos submarinos que sirven de refugio para muchas especies." },
+      { "nombre": "Mar Abierto", "descripcion": "Grandes extensiones alejadas de la costa." },
+      { "nombre": "Zona Profunda", "descripcion": "Regiones oscuras donde viven organismos adaptados a altas presiones." }
+    ],
+    "ecosistema": {
+      "clima": "Varía según la región: tropical cálido, templado o frío. Influenciado por corrientes marinas. En zonas tropicales, temperaturas estables y alta evaporación.",
+      "flora": ["Fitoplancton", "Macroalgas", "Algas pardas", "Algas verdes", "Algas rojas", "Pastos marinos", "Manglares", "Microalgas"],
+      "fauna": ["Ballenas", "Delfines", "Tiburones", "Tortugas marinas", "Pulpos", "Calamares", "Caballitos de mar", "Peces arrecifales", "Rayas", "Cangrejos", "Langostas", "Medusas", "Estrellas de mar"],
+      "amenazas": ["Contaminación por plásticos", "Sobrepesca", "Pesca ilegal", "Calentamiento global", "Acidificación del océano", "Derrames de petróleo", "Minería submarina", "Destrucción de arrecifes", "Contaminación química"],
+      "conservacion": ["Reducir el uso de plásticos de un solo uso.", "Participar en limpiezas de playas.", "Consumir productos pesqueros sostenibles.", "Proteger áreas marinas protegidas.", "Reducir emisiones que contribuyen al cambio climático.", "Respetar la fauna marina.", "Promover la educación oceánica."]
+    },
+    "curiosidades": [
+      "Más del 80% del océano aún no ha sido explorado por los seres humanos.",
+      "La fosa de las Marianas es el punto más profundo conocido de la Tierra.",
+      "Las ballenas pueden comunicarse a cientos de kilómetros de distancia.",
+      "Los arrecifes de coral albergan aproximadamente una cuarta parte de las especies marinas.",
+      "El océano absorbe gran parte del calor generado por el cambio climático.",
+      "Algunas criaturas marinas producen su propia luz mediante bioluminiscencia.",
+      "El fitoplancton genera gran parte del oxígeno del planeta."
+    ],
+    "preguntasSugeridas": [
+      "¿Por qué los océanos producen oxígeno?",
+      "¿Cuáles son los cinco océanos?",
+      "¿Qué animales viven en el océano?",
+      "¿Qué es un arrecife de coral?",
+      "¿Por qué es peligroso el plástico para los animales marinos?",
+      "¿Cómo ayudan los océanos al clima?",
+      "¿Qué puedo hacer para proteger el mar?"
+    ],
+    "indicadores": [
+      {
+        "icono": "💧",
+        "label": "Calidad del Agua",
+        "estados": {
+          "sano": {
+            "texto": "Agua transparente y limpia.",
+            "imagen": "img/oceano/sano.jpg",
+            "keywords": ["agua clara", "transparente", "limpia", "cristalina"]
+          },
+          "regular": {
+            "texto": "Agua con residuos o turbidez moderada.",
+            "imagen": "img/oceano/regular.jpg",
+            "keywords": ["turbia", "sucia", "residuos", "plástico flotando"]
+          },
+          "critico": {
+            "texto": "Contaminación severa o derrames.",
+            "imagen": "img/oceano/critico.jpg",
+            "keywords": ["petróleo", "contaminación grave", "agua negra", "basura abundante"]
+          }
+        }
+      },
+      {
+        "icono": "🪸",
+        "label": "Estado de los Corales",
+        "estados": {
+          "sano": {
+            "texto": "Corales vivos y coloridos.",
+            "imagen": "img/oceano/sano.jpg",
+            "keywords": ["corales vivos", "coloridos", "arrecife sano"]
+          },
+          "regular": {
+            "texto": "Corales parcialmente blanqueados.",
+            "imagen": "img/oceano/regular.jpg",
+            "keywords": ["corales pálidos", "blanqueamiento"]
+          },
+          "critico": {
+            "texto": "Corales muertos o destruidos.",
+            "imagen": "img/oceano/critico.jpg",
+            "keywords": ["corales muertos", "arrecife destruido"]
+          }
+        }
+      },
+      {
+        "icono": "🐠",
+        "label": "Biodiversidad Marina",
+        "estados": {
+          "sano": {
+            "texto": "Gran variedad de especies marinas.",
+            "imagen": "img/oceano/sano.jpg",
+            "keywords": ["muchos peces", "delfines", "vida marina abundante"]
+          },
+          "regular": {
+            "texto": "Menor cantidad de animales observados.",
+            "imagen": "img/oceano/regular.jpg",
+            "keywords": ["menos peces", "menos animales"]
+          },
+          "critico": {
+            "texto": "Ausencia o pérdida importante de fauna.",
+            "imagen": "img/oceano/critico.jpg",
+            "keywords": ["sin peces", "sin vida marina"]
+          }
+        }
+      }
+    ],
+    "respuestas": {
+      "sano": { "diagnostico": "", "solucion": "" },
+      "regular": { "diagnostico": "", "solucion": "" },
+      "critico": { "diagnostico": "", "solucion": "" }
+    },
+    "palabrasClave": ["océano", "mar", "arrecife", "coral", "pez", "ballena", "delfín", "tortuga", "agua", "playa", "marino", "marina"]
+  },
+
+  "Amanda": {
+    "nombre": "Amanda Alvarado",
+    "avatar": "🌳",
+    "entorno": "Bosques Templados y Tropicales",
+    "imagenPerfil": "img/bosque/perfil.jpg",
+    "presentacion": "¡Hola! Soy Amanda Alvarado. Me encanta explorar los bosques, escuchar el canto de las aves y descubrir los secretos que esconden los árboles. He recorrido senderos, observado animales y aprendido cómo funcionan estos ecosistemas tan importantes para nuestro planeta.",
+    "metodo": "Camino por los senderos con mi libreta de campo, una lupa y mucha curiosidad. Observo los árboles, la fauna, el suelo y los ríos para descubrir si el bosque está saludable o necesita ayuda.",
+    "concepto": "Los bosques son ecosistemas terrestres donde predominan los árboles, arbustos, hongos, musgos y una enorme variedad de seres vivos. Son considerados uno de los ecosistemas más importantes del planeta porque ayudan a regular el clima, producir oxígeno, almacenar carbono y proteger el agua.",
+    "importancia": [
+      "Producen gran parte del oxígeno que respiramos.",
+      "Absorben dióxido de carbono y ayudan a reducir el calentamiento global.",
+      "Protegen los suelos contra la erosión.",
+      "Regulan el ciclo del agua y ayudan a formar lluvias.",
+      "Son el hogar de miles de especies animales y vegetales.",
+      "Proporcionan alimentos, medicinas y materiales para las personas.",
+      "Tienen un gran valor cultural, educativo y recreativo."
+    ],
+    "tiposBosques": [
+      { "nombre": "Bosques Tropicales", "descripcion": "Se encuentran cerca del ecuador. Son cálidos, húmedos y poseen la mayor biodiversidad del planeta." },
+      { "nombre": "Bosques Templados", "descripcion": "Presentan estaciones bien marcadas y una gran variedad de árboles de hoja caduca y coníferas." },
+      { "nombre": "Bosques Boreales o Taiga", "descripcion": "Ubicados en regiones frías del hemisferio norte. Predominan pinos, abetos y otras coníferas." },
+      { "nombre": "Bosques Subtropicales", "descripcion": "Poseen temperaturas cálidas y una mezcla de especies adaptadas a diferentes condiciones climáticas." },
+      { "nombre": "Bosques Secos", "descripcion": "Reciben menos lluvias y sus especies están adaptadas a largos períodos de sequía." }
+    ],
+    "ecosistema": {
+      "clima": "Templado húmedo en bosques templados; cálido y lluvioso en bosques tropicales. Alta humedad y precipitaciones constantes.",
+      "flora": ["Robles", "Pinos", "Abetos", "Cedros", "Helechos", "Musgos", "Líquenes", "Orquídeas", "Bromelias", "Hongos"],
+      "fauna": ["Tucanes", "Guacamayas", "Monos", "Ardillas", "Osos", "Ciervos", "Jaguares", "Ranas", "Serpientes", "Mariposas", "Abejas", "Pájaros carpinteros"],
+      "amenazas": ["Deforestación", "Incendios forestales", "Tala ilegal", "Expansión agrícola", "Contaminación", "Cambio climático", "Fragmentación del hábitat"],
+      "conservacion": ["Reforestar con especies nativas.", "Evitar incendios forestales.", "Reducir y reciclar el consumo de papel.", "Respetar senderos y áreas protegidas.", "No dejar basura durante las visitas.", "Apoyar proyectos de conservación.", "Educar a otras personas sobre la importancia de los bosques."]
+    },
+    "curiosidades": [
+      "Algunos árboles pueden vivir cientos o incluso miles de años.",
+      "Los bosques albergan más del 80% de las especies terrestres conocidas.",
+      "Los hongos ayudan a reciclar nutrientes y mantener saludable el suelo.",
+      "Un árbol grande puede producir suficiente oxígeno para varias personas.",
+      "Muchas medicinas modernas provienen de plantas descubiertas en bosques."
+    ],
+    "preguntasSugeridas": [
+      "¿Qué animales viven en los bosques?",
+      "¿Por qué los bosques producen oxígeno?",
+      "¿Qué pasa si se talan muchos árboles?",
+      "¿Cómo ayudan los bosques al clima?",
+      "¿Cuáles son los tipos de bosques?",
+      "¿Por qué son importantes los hongos?",
+      "¿Cómo puedo ayudar a proteger los bosques?"
+    ],
+    "indicadores": [
+      {
+        "icono": "🌿",
+        "label": "Estructura de la Flora",
+        "estados": {
+          "sano": {
+            "texto": "Vegetación abundante distribuida desde el suelo hasta el dosel.",
+            "imagen": "img/bosque/sano.jpg",
+            "keywords": ["frondoso", "verde", "abundante", "vegetación sana", "muchos árboles", "bosque denso"]
+          },
+          "regular": {
+            "texto": "Vegetación afectada por calor, sequía o tala parcial.",
+            "imagen": "img/bosque/regular.jpg",
+            "keywords": ["árboles secos", "menos hojas", "sequía", "tala", "vegetación dañada"]
+          },
+          "critico": {
+            "texto": "Ausencia de vegetación o deforestación severa.",
+            "imagen": "img/bosque/critico.jpg",
+            "keywords": ["deforestado", "sin árboles", "incendio", "bosque destruido", "vegetación ausente"]
+          }
+        }
+      },
+      {
+        "icono": "🦜",
+        "label": "Biodiversidad",
+        "estados": {
+          "sano": {
+            "texto": "Gran variedad de animales presentes.",
+            "imagen": "img/bosque/sano.jpg",
+            "keywords": ["aves", "mariposas", "muchos animales", "fauna abundante"]
+          },
+          "regular": {
+            "texto": "Menor presencia de animales y polinizadores.",
+            "imagen": "img/bosque/regular.jpg",
+            "keywords": ["menos animales", "pocas aves", "menos insectos"]
+          },
+          "critico": {
+            "texto": "Ausencia de fauna silvestre.",
+            "imagen": "img/bosque/critico.jpg",
+            "keywords": ["sin animales", "fauna ausente", "ninguna especie"]
+          }
+        }
+      },
+      {
+        "icono": "🌱",
+        "label": "Estado del Suelo",
+        "estados": {
+          "sano": {
+            "texto": "Suelo fértil, húmedo y protegido.",
+            "imagen": "img/bosque/sano.jpg",
+            "keywords": ["fértil", "húmedo", "hojarasca"]
+          },
+          "regular": {
+            "texto": "Erosión moderada o compactación.",
+            "imagen": "img/bosque/regular.jpg",
+            "keywords": ["erosión", "compactado", "pérdida de suelo"]
+          },
+          "critico": {
+            "texto": "Suelo degradado y erosionado.",
+            "imagen": "img/bosque/critico.jpg",
+            "keywords": ["suelo destruido", "sin tierra fértil", "erosión severa"]
+          }
+        }
+      }
+    ],
+    "respuestas": {
+      "sano": { "diagnostico": "", "solucion": "" },
+      "regular": { "diagnostico": "", "solucion": "" },
+      "critico": { "diagnostico": "", "solucion": "" }
+    },
+    "palabrasClave": ["bosque", "selva", "árbol", "árboles", "tala", "deforestación", "naturaleza", "fauna", "flora", "hongos", "musgos", "ecosistema"]
+  }
+}
