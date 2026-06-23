@@ -57,6 +57,75 @@
             transform: scale(1.02);
             background-color: rgba(255,255,255,0.05);
         }
+        <style>
+    /* ESTILOS BASE (Para PC y Laptops - Pantallas grandes) */
+    body {
+        font-size: 18px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto; /* Centra el contenido */
+    }
+
+    /* Asegura que las imágenes y cajas no se salgan de la pantalla */
+    img, video, .contenedor, #chat-box, .mensaje {
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    /* Para ventanas de chat o tarjetas, que tengan buen espacio */
+    input, button, textarea {
+        font-size: 16px; /* Evita que el iPhone haga zoom automático */
+        padding: 10px;
+    }
+
+    /* --- AJUSTE PARA TABLETS (Pantallas menores a 1024px de ancho) --- */
+    @media (max-width: 1024px) {
+        body {
+            font-size: 17px;
+            padding: 15px;
+        }
+    }
+
+    /* --- AJUSTE PARA CELULARES (Pantallas menores a 768px de ancho) --- */
+    @media (max-width: 768px) {
+        body {
+            font-size: 15px;
+            padding: 10px;
+        }
+
+        /* Hace que los títulos principales sean más pequeños */
+        h1 {
+            font-size: 1.8rem;
+        }
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        /* Si tienes botones, que ocupen todo el ancho para tocarlos fácil */
+        button, .boton {
+            width: 100%;
+            display: block;
+            margin: 5px 0;
+            padding: 12px;
+        }
+
+        /* Si usas filas con Flexbox, haz que se apilen verticalmente */
+        .fila, .row, .contenedor-flex {
+            flex-direction: column;
+        }
+    }
+
+    /* --- AJUSTE PARA CELULARES MUY PEQUEÑOS (menos de 480px) --- */
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+            padding: 5px;
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
     </style>
 </head>
 <body class="fondo-ecosistemas text-white font-sans h-screen overflow-hidden flex flex-col p-6 relative">
