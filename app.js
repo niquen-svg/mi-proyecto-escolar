@@ -45,7 +45,7 @@ const SALUDOS = [
 // ============================================================
 
 // 🔑 REEMPLAZA 'TU_CLAVE_API_AQUI' POR TU CLAVE REAL DE GOOGLE AI STUDIO
-const API_KEY = 'AQ.Ab8RN6I8x7WiIwMkQcZUxn234H9xYY2Qg0sdFF9Jo1rWZk4MCQ';
+const API_KEY = process.env.apigem;
 
 async function consultarGemini(prompt) {
     try {
